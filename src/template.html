@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+
+  <p class="upScroll" onclick="scrollToElem('header')">▲</p>
+
+  <script>
+    function scrollToElem(elemName){
+      document.getElementsByClassName(elemName)[0].scrollIntoView({behavior: "smooth"});
+    }
+  </script>
+
+  <div class="header">
+
+    <div class="block-menu-phone">
+      <div class="menu-phone-hide">
+        <img class="menu-phone-hide_img" src="" alt="">
+      </div>
+      <ul>
+        <li class="menu-phone-item" onclick="scrollToElem('block1')">Про гида</li>
+        <li class="menu-phone-item" onclick="scrollToElem('block2')">Программа тура</li>
+        <li class="menu-phone-item" onclick="scrollToElem('block3')">Стоимость</li>
+        <li class="menu-phone-item" onclick="scrollToElem('block4')">Блог</li>
+        <li class="menu-phone-item" onclick="scrollToElem('footer')">Контакты</li>
+      </ul>
+    </div>   
+
+    <div class="header_content">
+      <div class="block-menu">
+        <img class="logo" alt="">
+        <div class="menu-desctop">
+          <div class="menu-desctop_item">Главная</div>
+          <div class="menu-desctop_item" onclick="scrollToElem('block1')">Про гида</div>
+          <div class="menu-desctop_item" onclick="scrollToElem('block2')">Программа тура</div>
+          <div class="menu-desctop_item" onclick="scrollToElem('block3')">Стоимость</div>
+          <div class="menu-desctop_item" onclick="scrollToElem('block4')">Блог</div>
+          <div class="menu-desctop_item" onclick="scrollToElem('footer')">Контакты</div>
+        </div>
+        <div class="button is-primary button-menu">Консультация</div>
+        <img class="menu-phone-img" src="" alt="">
+      </div>
+
+      <div class="block-content">
+        <p class="title">
+          Насладись прогулкой в горах<br> с командой единомышленников
+        </p>
+
+        <div class="program-selector">
+
+          <div class="selector-block">
+            <div class="location-selector selector">
+              <p>Локация для тура</p>
+              <img class="arrow-img" src="" alt="">
+            </div>
+            <p class="selector-block-description">выберите из списка</p>
+          </div>
+
+          <div class="selector-block">
+            <div class="date-selector selector">
+              <p>Дата похода</p>
+              <img class="date-img" src="" alt="">
+            </div>
+            <p class="selector-block-description">укажите диапазон</p>
+          </div>
+
+          <div class="selector-block">
+            <div class="user-selector selector">
+              <p>Участники</p>
+              <img class="arrow-img" src="" alt="">
+            </div>
+            <p class="selector-block-description">минимум 4 человека</p>
+          </div>
+
+          <div class="button is-primary button-select-program">Найти программу</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="block1">
+    <div class="content block1-content">
+      <div class="content-item content-first">
+        <img src="" class="content-first-img-first content-first-img" alt="">
+        <img src="" class="content-first-img-second content-first-img" alt="">
+        <img src="" class="content-first-img-third" alt="">
+      </div>
+      <div class="content-item content-second">
+        <p class="content-text-first">о нашем походе</p>
+        <p class="content-text-second">Исследуйте все горные массивы мира вместе с нами</p>
+        <p class="content-text-third">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более
+          двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял
+          одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской
+          литературе.</p>
+        <div class="button is-primary button-about-tour">Программа тура</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block2">
+    <div class="content block2-content">
+      <div class="block2-content-first block2-content-block">
+        <p class="content-text-first">наше предложение</p>
+        <p class="content-text-second">Лучшие программы для тебя</p>
+        <p class="content-text-third">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более
+          двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа.</p>
+
+
+        <div class="items-block">
+          <div class="items-block-item">
+            <img class="items-block-item-img img1" src="" alt="">
+            <div class="items-block-item-content">
+              <p class="items-block-item-content-text">Опытный гид</p>
+              <p class="items-block-item-content-text2">Для современного мира базовый вектор развития предполагает
+                независимые способы реализации соответствующих условий активизации.</p>
+            </div>
+          </div>
+          <div class="items-block-item">
+            <img class="items-block-item-img img2" src="" alt="">
+            <div class="items-block-item-content">
+              <p class="items-block-item-content-text">Безопасный поход</p>
+              <p class="items-block-item-content-text2">Для современного мира базовый вектор развития предполагает
+                независимые способы реализации соответствующих условий активизации.</p>
+            </div>
+          </div>
+          <div class="items-block-item">
+            <img class="items-block-item-img img3" src="" alt="">
+            <div class="items-block-item-content">
+              <p class="items-block-item-content-text">Лояльные цены</p>
+              <p class="items-block-item-content-text2">Для современного мира базовый вектор развития предполагает
+                независимые способы реализации соответствующих условий активизации.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="button is-primary button-about-tour2">Стоимость программ</div>
+      </div>
+      <div class="block2-content-second block2-content-block">
+        <img class="block2-content-block-img" src="" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="block3">
+
+    <div class="content block3-content">
+      <p class="content-text-first">по версии отдыхающих</p>
+      <p class="content-text-second">Популярные направления</p>
+
+      <div class="block3-content-container">
+
+        <div class="direction">
+          <div class="rating">
+            <img class="star" src="" alt="">
+            <p>4.9</p>
+          </div>
+          <div class="description-direction">
+            <div class="description-direction-container">
+              <div class="description-direction-text-container">
+                <p class="description-direction-text1">Озеро возле гор</p>
+                <p class="description-direction-text2">романтическое приключение</p>
+              </div>
+              <p class="description-direction-price">
+                480 $
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="direction">
+          <div class="rating">
+            <img class="star" src="" alt="">
+            <p>4.5</p>
+          </div>
+          <div class="description-direction">
+            <div class="description-direction-container">
+              <div class="description-direction-text-container">
+                <p class="description-direction-text1">Ночь в горах</p>
+                <p class="description-direction-text2">в компании друзей</p>
+              </div>
+              <p class="description-direction-price">
+                500 $
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="direction">
+          <div class="rating">
+            <img class="star" src="" alt="">
+            <p>5.0</p>
+          </div>
+          <div class="description-direction">
+            <div class="description-direction-container">
+              <div class="description-direction-text-container">
+                <p class="description-direction-text1">Йога в горах</p>
+                <p class="description-direction-text2">для тех, кто забоится о себе</p>
+              </div>
+              <p class="description-direction-price">
+                230 $
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="button is-primary button-about-tour">Рейтинг направлений</div>
+    </div>
+  </div>
+
+  <div class="block4">
+
+    <div class="content block4-content">
+      <p class="content-text-first">делимся впечатлениями</p>
+      <p class="content-text-second">Блог о путешествиях</p>
+
+      <div class="block4-content-container">
+
+        <div class="blog-card">
+          <img class="blog-card-img" src="" alt="">
+          <div class="blog-card-content">
+            <p class="blog-card-content-text1">Красивая Италя, какая она в реальности?</p>
+            <p class="blog-card-content-text2">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+            <div class="log-card-content-text-container">
+              <p class="log-card-content-text-container-date">01/04/2023</p>
+              <p class="log-card-content-text-container-moore">читать статью</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <img class="blog-card-img" src="" alt="">
+          <div class="blog-card-content">
+            <p class="blog-card-content-text1">Долой сомнения! Весь мир открыт для вас!</p>
+            <p class="blog-card-content-text2">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации ... независимые способы реализации соответствующих условий активизации ...Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации ... независимые способы реализации соответствующих условий активизации ...</p>
+            <div class="log-card-content-text-container">
+              <p class="log-card-content-text-container-date">01/04/2023</p>
+              <p class="log-card-content-text-container-moore">читать статью</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <img class="blog-card-img" src="" alt="">
+          <div class="blog-card-content">
+            <p class="blog-card-content-text1">Как подготовиться к путешествию в одиночку? </p>
+            <p class="blog-card-content-text2">Для современного мира базовый вектор развития предполагает.</p>
+            <div class="log-card-content-text-container">
+              <p class="log-card-content-text-container-date">01/04/2023</p>
+              <p class="log-card-content-text-container-moore">читать статью</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <img class="blog-card-img" src="" alt="">
+          <div class="blog-card-content">
+            <p class="blog-card-content-text1">Индия ... летим?</p>
+            <p class="blog-card-content-text2">Для современного мира базовый.</p>
+            <div class="log-card-content-text-container">
+              <p class="log-card-content-text-container-date">01/04/2023</p>
+              <p class="log-card-content-text-container-moore">читать статью</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="button is-primary button-about-tour">Другие материалы</div>
+    </div>
+
+  </div>
+
+  <div class="block5">
+    <div class="content block5-content">
+      <p class="content-text-first">фото-отчет</p>
+      <p class="content-text-second">Делимся впечатлениями</p>
+      <div class="block5-content-container">
+        <img class="impressionImg" src="" alt="">
+        <img class="impressionImg" src="" alt="">
+        <img class="impressionImg" src="" alt="">
+        <img class="impressionImg" src="" alt="">
+        <img class="impressionImg" src="" alt="">
+        <img class="impressionImg" src="" alt="">
+      </div>
+      <div class="button is-primary button-about-tour">Наш pinterest</div>
+    </div>
+  </div>
+
+  <div class="block6">
+    <div class="content block6-content">
+      <div class="block6-content-block1">
+        <p class="block6-content-block1-text1">актуально</p>
+        <p class="block6-content-block1-text2">Получайте полезные рассылки о путешествиях</p>
+      </div>
+      <div class="block6-content-block2">
+        <p class="block6-content-block2-text1">Введите e-mail адрес</p>
+        <div class="block6-content-block2-content-container">
+          <input class="input-mail" type="text" placeholder="example@mail.com">
+          <div class="button is-primary button-about-tour button-news">Подписаться на новости</div>
+        </div>
+        <p class="block6-content-block2-text2">подписываясь на новости, вы автоматически соглашаетесь с условиями <u>обработки персональных данных</u> и <u>правилами рекламных рассылок</u></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="content footer-content">
+      <div class="footer-content-block1">
+        <p class="footer-content-block1-text1">Компания «РумТибет»</p>
+        <p class="footer-content-block1-text2">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney.</p>
+        <div class="footer-content-block1-contacts">
+          <p class="footer-contact"><u>info@domain.com</u></p>
+          <p class="footer-contact"><u>+7 (123) 456-78-90</u></p>
+        </div>
+        <div class="footer-social-media">
+          <img class="social-media" src="" alt="">
+          <img class="social-media" src="" alt="">
+          <img class="social-media"src="" alt="">
+          <img class="social-media"src="" alt="">
+        </div>
+      </div>
+      <div class="footer-content-block2">
+        <p class="footer-content-block2-text1">Наши услуги</p>
+        <ul>
+          <li class="footer-content-block2-item">Прогулки в горы летом</li>
+          <li class="footer-content-block2-item">Зимние походы в горы</li>
+          <li class="footer-content-block2-item">Посещение храмов в горах</li>
+          <li class="footer-content-block2-item">Экстремальные виды туризма</li>
+          <li class="footer-content-block2-item">Походы в джунглях Амазонии<p class="new">new</p></li>
+          <li class="footer-content-block2-item">Поездка в Африку</li>
+        </ul>
+      </div>
+      <div class="footer-content-block3">
+        <p class="footer-content-block2-text1">Важно для путешествий</p>
+        <ul>
+          <li class="footer-content-block2-item">Как собрать в долгий поход?</li>
+          <li class="footer-content-block2-item">Жизненно важные предметы для похода</li>
+          <li class="footer-content-block2-item">Медицинская страховка, гарантии безопасности</li>
+          <li class="footer-content-block2-item">Если вы врач - загляните сюда</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-end">
+    <div class="content footer-end-content">
+      <p class="footer-end-content-text">ИП Константинопольский К.К., 2023</p>
+      <p class="footer-end-content-text">Политика обработки персональных данных</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
